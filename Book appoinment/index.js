@@ -7,7 +7,7 @@ function handleFormSubmit(event) {
     };
     //let myObj_serial = JSON.stringify(myObj);
     //localStorage.setItem(myObj.email, myObj_serial);
-    axios.post("https://crudcrud.com/api/2d405189ab864bd4a38197c0b340c1c9/appoinment",myObj)
+    axios.post("https://crudcrud.com/api/2d405189ab864bd4a38197c0b340c1c9/appoinmentData",myObj)
     .then((response) => {console.log(response)
 	 })
     .catch((err) => {console.log(err)});
